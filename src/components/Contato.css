@@ -1,0 +1,44 @@
+.contato {
+    background: black;
+    color: white;
+    text-align: center;
+    height: 590px;
+}
+
+.card-contato {
+    width: 170px;
+    height: 80px;
+    line-height: 80px;
+    display: inline-block;
+    background-color: rgb(12, 122, 248);
+    text-align: center;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.contato-container {
+    padding-top:50px;
+}
+
+.contato-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.card-contato > p {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 360px) {
+    .contato {
+        width: 133%;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .contato {
+      width: 150%;
+    }
+  }

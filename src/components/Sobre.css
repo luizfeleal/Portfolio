@@ -1,0 +1,57 @@
+.sobre-container {
+    height: 680px;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-sobre {
+    width: 140px;
+    height: 80px;
+    line-height: 80px;
+    display: inline-block;
+    background-color: rgb(12, 122, 248);
+}
+
+.box {
+    display: flex;
+    padding-top: 100px;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+}
+
+.image > img {
+    height: 380px;
+    width: 380px;
+    border-radius: 50%;
+}
+
+
+
+.card-sobre > p {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .image {
+        display: none;
+    }
+    .text {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .sobre-container {
+        width: 133%;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .sobre-container {
+      width: 150%;
+    }
+  }
